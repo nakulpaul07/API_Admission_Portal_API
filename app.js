@@ -15,8 +15,8 @@ app.use(cors())
 
 
 // Connect to maongoose
-const connectDbs = require('./db/connectdb')
-connectDbs()
+const connectDb = require('./db/connectdb')
+connectDb()
 
 // fileuploader for image
 const fileuploader = require('express-fileupload')
